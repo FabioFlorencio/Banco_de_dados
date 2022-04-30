@@ -1,0 +1,34 @@
+
+public Class finalização de pedido CLIENTE{
+	
+	Se (finalizar pedido && minimo_item_carrinho && autenticado){
+		Tela pagamento carrinho será exibida
+		Confirmar livros selecionados
+		Confirmar qtd	
+		
+	} Senão se (Não tiver cadastro){
+		
+		fazer Cadastro
+		informar dados pessoais	
+		
+	}
+	
+	//Segunda etapa PEDIDO
+	
+	Se (autenticado){
+		
+		repita
+			se (informar endereço & calcular Frete & Selecionar forma de pagamento(credito/boleto)){
+								
+				concluíra pedido & qtd de livros(estoque atualizada)				
+			}					
+		ate(verdadeio)			
+		
+	}	
+	
+	// Terceira etapa Pedido
+	
+	pedido confirmado = itens do carrinho destruidos
+	
+}
+
